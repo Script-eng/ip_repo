@@ -1,0 +1,1 @@
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin; export HOME=/home/nvidia; cd /home/nvidia/ip_repo; IP_ADDRESS=$(hostname -I | awk '{print $1}'); echo $IP_ADDRESS >> /home/nvidia/ip_repo/ip.txt; git add -A; git commit -m "another one"; git push
